@@ -10,11 +10,19 @@
 		AA2E7B5F1C8FB51B00510AD4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AA2E7B5E1C8FB51B00510AD4 /* main.m */; };
 		AA2E7B621C8FB51B00510AD4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AA2E7B611C8FB51B00510AD4 /* AppDelegate.m */; };
 		AA2E7B651C8FB51B00510AD4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA2E7B641C8FB51B00510AD4 /* ViewController.m */; };
-		AA2E7B681C8FB51B00510AD4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA2E7B661C8FB51B00510AD4 /* Main.storyboard */; };
 		AA2E7B6A1C8FB51B00510AD4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA2E7B691C8FB51B00510AD4 /* Assets.xcassets */; };
 		AA2E7B6D1C8FB51B00510AD4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA2E7B6B1C8FB51B00510AD4 /* LaunchScreen.storyboard */; };
 		AA2E7B781C8FB51B00510AD4 /* FMDBDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AA2E7B771C8FB51B00510AD4 /* FMDBDemoTests.m */; };
 		AA2E7B831C8FB51B00510AD4 /* FMDBDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AA2E7B821C8FB51B00510AD4 /* FMDBDemoUITests.m */; };
+		AA2E7B941C8FB54600510AD4 /* XYContactsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = AA2E7B911C8FB54600510AD4 /* XYContactsModel.m */; };
+		AA2E7B951C8FB54600510AD4 /* XYDBMain.m in Sources */ = {isa = PBXBuildFile; fileRef = AA2E7B931C8FB54600510AD4 /* XYDBMain.m */; };
+		AA2E7BA21C8FB54D00510AD4 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = AA2E7B981C8FB54D00510AD4 /* FMDatabase.m */; };
+		AA2E7BA31C8FB54D00510AD4 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = AA2E7B9A1C8FB54D00510AD4 /* FMDatabaseAdditions.m */; };
+		AA2E7BA41C8FB54D00510AD4 /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = AA2E7B9C1C8FB54D00510AD4 /* FMDatabasePool.m */; };
+		AA2E7BA51C8FB54D00510AD4 /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = AA2E7B9E1C8FB54D00510AD4 /* FMDatabaseQueue.m */; };
+		AA2E7BA61C8FB54D00510AD4 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = AA2E7BA11C8FB54D00510AD4 /* FMResultSet.m */; };
+		AA2E7BA81C8FB56400510AD4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA2E7BA71C8FB56400510AD4 /* Main.storyboard */; };
+		AA2E7BAA1C8FB57F00510AD4 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = AA2E7BA91C8FB57F00510AD4 /* libsqlite3.tbd */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,7 +49,6 @@
 		AA2E7B611C8FB51B00510AD4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		AA2E7B631C8FB51B00510AD4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		AA2E7B641C8FB51B00510AD4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		AA2E7B671C8FB51B00510AD4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AA2E7B691C8FB51B00510AD4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AA2E7B6C1C8FB51B00510AD4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AA2E7B6E1C8FB51B00510AD4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,6 +58,23 @@
 		AA2E7B7E1C8FB51B00510AD4 /* FMDBDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FMDBDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA2E7B821C8FB51B00510AD4 /* FMDBDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FMDBDemoUITests.m; sourceTree = "<group>"; };
 		AA2E7B841C8FB51B00510AD4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA2E7B901C8FB54600510AD4 /* XYContactsModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYContactsModel.h; sourceTree = "<group>"; };
+		AA2E7B911C8FB54600510AD4 /* XYContactsModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYContactsModel.m; sourceTree = "<group>"; };
+		AA2E7B921C8FB54600510AD4 /* XYDBMain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYDBMain.h; sourceTree = "<group>"; };
+		AA2E7B931C8FB54600510AD4 /* XYDBMain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYDBMain.m; sourceTree = "<group>"; };
+		AA2E7B971C8FB54D00510AD4 /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		AA2E7B981C8FB54D00510AD4 /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
+		AA2E7B991C8FB54D00510AD4 /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		AA2E7B9A1C8FB54D00510AD4 /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		AA2E7B9B1C8FB54D00510AD4 /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
+		AA2E7B9C1C8FB54D00510AD4 /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabasePool.m; sourceTree = "<group>"; };
+		AA2E7B9D1C8FB54D00510AD4 /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseQueue.h; sourceTree = "<group>"; };
+		AA2E7B9E1C8FB54D00510AD4 /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
+		AA2E7B9F1C8FB54D00510AD4 /* FMDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDB.h; sourceTree = "<group>"; };
+		AA2E7BA01C8FB54D00510AD4 /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		AA2E7BA11C8FB54D00510AD4 /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
+		AA2E7BA71C8FB56400510AD4 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		AA2E7BA91C8FB57F00510AD4 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA2E7BAA1C8FB57F00510AD4 /* libsqlite3.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +106,7 @@
 		AA2E7B511C8FB51B00510AD4 = {
 			isa = PBXGroup;
 			children = (
+				AA2E7BA91C8FB57F00510AD4 /* libsqlite3.tbd */,
 				AA2E7B5C1C8FB51B00510AD4 /* FMDBDemo */,
 				AA2E7B761C8FB51B00510AD4 /* FMDBDemoTests */,
 				AA2E7B811C8FB51B00510AD4 /* FMDBDemoUITests */,
@@ -101,13 +127,18 @@
 		AA2E7B5C1C8FB51B00510AD4 /* FMDBDemo */ = {
 			isa = PBXGroup;
 			children = (
+				AA2E7B961C8FB54D00510AD4 /* FMDB */,
 				AA2E7B601C8FB51B00510AD4 /* AppDelegate.h */,
 				AA2E7B611C8FB51B00510AD4 /* AppDelegate.m */,
 				AA2E7B631C8FB51B00510AD4 /* ViewController.h */,
 				AA2E7B641C8FB51B00510AD4 /* ViewController.m */,
-				AA2E7B661C8FB51B00510AD4 /* Main.storyboard */,
 				AA2E7B691C8FB51B00510AD4 /* Assets.xcassets */,
+				AA2E7BA71C8FB56400510AD4 /* Main.storyboard */,
 				AA2E7B6B1C8FB51B00510AD4 /* LaunchScreen.storyboard */,
+				AA2E7B901C8FB54600510AD4 /* XYContactsModel.h */,
+				AA2E7B911C8FB54600510AD4 /* XYContactsModel.m */,
+				AA2E7B921C8FB54600510AD4 /* XYDBMain.h */,
+				AA2E7B931C8FB54600510AD4 /* XYDBMain.m */,
 				AA2E7B6E1C8FB51B00510AD4 /* Info.plist */,
 				AA2E7B5D1C8FB51B00510AD4 /* Supporting Files */,
 			);
@@ -138,6 +169,24 @@
 				AA2E7B841C8FB51B00510AD4 /* Info.plist */,
 			);
 			path = FMDBDemoUITests;
+			sourceTree = "<group>";
+		};
+		AA2E7B961C8FB54D00510AD4 /* FMDB */ = {
+			isa = PBXGroup;
+			children = (
+				AA2E7B971C8FB54D00510AD4 /* FMDatabase.h */,
+				AA2E7B981C8FB54D00510AD4 /* FMDatabase.m */,
+				AA2E7B991C8FB54D00510AD4 /* FMDatabaseAdditions.h */,
+				AA2E7B9A1C8FB54D00510AD4 /* FMDatabaseAdditions.m */,
+				AA2E7B9B1C8FB54D00510AD4 /* FMDatabasePool.h */,
+				AA2E7B9C1C8FB54D00510AD4 /* FMDatabasePool.m */,
+				AA2E7B9D1C8FB54D00510AD4 /* FMDatabaseQueue.h */,
+				AA2E7B9E1C8FB54D00510AD4 /* FMDatabaseQueue.m */,
+				AA2E7B9F1C8FB54D00510AD4 /* FMDB.h */,
+				AA2E7BA01C8FB54D00510AD4 /* FMResultSet.h */,
+				AA2E7BA11C8FB54D00510AD4 /* FMResultSet.m */,
+			);
+			path = FMDB;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -243,9 +292,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA2E7BA81C8FB56400510AD4 /* Main.storyboard in Resources */,
 				AA2E7B6D1C8FB51B00510AD4 /* LaunchScreen.storyboard in Resources */,
 				AA2E7B6A1C8FB51B00510AD4 /* Assets.xcassets in Resources */,
-				AA2E7B681C8FB51B00510AD4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,9 +319,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA2E7B951C8FB54600510AD4 /* XYDBMain.m in Sources */,
 				AA2E7B651C8FB51B00510AD4 /* ViewController.m in Sources */,
+				AA2E7B941C8FB54600510AD4 /* XYContactsModel.m in Sources */,
+				AA2E7BA21C8FB54D00510AD4 /* FMDatabase.m in Sources */,
+				AA2E7BA61C8FB54D00510AD4 /* FMResultSet.m in Sources */,
 				AA2E7B621C8FB51B00510AD4 /* AppDelegate.m in Sources */,
+				AA2E7BA41C8FB54D00510AD4 /* FMDatabasePool.m in Sources */,
+				AA2E7BA31C8FB54D00510AD4 /* FMDatabaseAdditions.m in Sources */,
 				AA2E7B5F1C8FB51B00510AD4 /* main.m in Sources */,
+				AA2E7BA51C8FB54D00510AD4 /* FMDatabaseQueue.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -308,14 +364,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		AA2E7B661C8FB51B00510AD4 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				AA2E7B671C8FB51B00510AD4 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		AA2E7B6B1C8FB51B00510AD4 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (

@@ -10,6 +10,9 @@
 
 @interface ViewController : UIViewController
 
+- (IBAction)addOneDataClick:(UIButton *)sender;
+- (IBAction)deleteOneDataClick:(UIButton *)sender;
+- (IBAction)updateOneDataClick:(UIButton *)sender;
+- (IBAction)searchDataClick:(UIButton *)sender;
 
 @end
-
